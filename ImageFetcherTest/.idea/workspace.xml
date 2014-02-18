@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d223c644-daa2-4f94-9c64-a25b83f4b86f" name="Default" comment="" />
+    <ignored path="ImageFetcherTest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ImageFetcherTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="121" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageWorker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StaggeredGridViewTest/src/com/andrew/apollo/cache/ImageWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="31" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+              <folding>
+                <element signature="e#0#14916#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#FADE_IN_TIME#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mDefaultArtwork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mResources#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mCurrentDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mArrayDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mDefault#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mContext#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mImageCache#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#ImageWorker#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#ImageWorker#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#getDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#setImageCache#0;class#ImageWorker#0" expanded="false" />
+                <element signature="e#3801#3802#0" expanded="false" />
+                <element signature="e#3844#3845#0" expanded="false" />
+                <element signature="docComment;method#isScrolling#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#isScrolling#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#close#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#close#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#flush#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#flush#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#addBitmapToCache#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#addBitmapToCache#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#getDefaultArtwork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="e#5053#5054#0" expanded="false" />
+                <element signature="e#5084#5085#0" expanded="false" />
+                <element signature="docComment;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mImageReference#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mKey#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;field#mUrl#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#BitmapWorkerTask#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#BitmapWorkerTask#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#doInBackground#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#doInBackground#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="e#6370#6436#0" expanded="false" />
+                <element signature="e#6934#6960#0" expanded="false" />
+                <element signature="e#7258#7318#0" expanded="false" />
+                <element signature="docComment;method#onPostExecute#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#onPostExecute#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#getAttachedImageView#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#getAttachedImageView#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#cancelWork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#cancelWork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#executePotentialWork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#executePotentialWork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#getBitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#getBitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#AsyncDrawable#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#AsyncDrawable#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#getBitmapWorkerTask#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#getBitmapWorkerTask#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#loadImage#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#loadImage#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#processBitmap#0;class#ImageWorker#0" expanded="false" />
+                <element signature="docComment;method#processImageUrl#0;class#ImageWorker#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFetcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageFetcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="0" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2023">
+              <folding>
+                <element signature="method#ImageFetcher#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#initImageOption#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#getInstance#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#processImageUrl#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#startLoadImage#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#startLoadImage#1;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#setPauseDiskCache#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#clearCaches#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#removeFromCache#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#getCachedBitmap#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#downloadBitmapToFile#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#decodeSampledBitmapFromFile#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#decodeSampledBitmapFromFile#1;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#calculateInSampleSize#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="e#10998#11066#0" expanded="false" />
+                <element signature="method#disableConnectionReuseIfNecessary#0;class#ImageFetcher#0" expanded="false" />
+                <element signature="method#hasHttpConnectionBug#0;class#ImageFetcher#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageWorker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="36" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="3196">
+              <folding>
+                <element signature="docComment;field#mContext#0;class#ImageWorker#0" expanded="true" />
+                <element signature="docComment;method#ImageWorker#0;class#ImageWorker#0" expanded="true" />
+                <element signature="method#ImageWorker#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#isScrolling#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#close#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#flush#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#BitmapWorkerTask#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="e#6187#6253#0" expanded="false" />
+                <element signature="e#6751#6777#0" expanded="false" />
+                <element signature="e#7075#7135#0" expanded="false" />
+                <element signature="method#getAttachedImageView#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#cancelWork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#executePotentialWork#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#getBitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+                <element signature="class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#AsyncDrawable#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#getBitmapWorkerTask#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+                <element signature="method#loadImage#0;class#ImageWorker#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFetcherActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/ImageFetcherActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="59" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="799">
+              <folding>
+                <element signature="e#2022#2054#0" expanded="true" />
+                <element signature="e#2097#2116#0" expanded="true" />
+                <element signature="method#parseFlickrImageResponse#0;class#ImageFetcherActivity#0" expanded="false" />
+                <element signature="method#doDelete#0;class#ImageFetcherActivity#0" expanded="false" />
+                <element signature="method#afterDelete#0;class#ImageFetcherActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseLocalActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/BaseLocalActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="68" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <folding>
+                <element signature="e#693#699#0" expanded="true" />
+                <element signature="method#onCreate#0;class#BaseLocalActivity#0" expanded="false" />
+                <element signature="method#flickerGetImagesRequest#0;class#BaseLocalActivity#0" expanded="false" />
+                <element signature="class#1966:3298" expanded="false" />
+                <element signature="method#doInBackground#0;class#1966:3298" expanded="false" />
+                <element signature="method#onPostExecute#0;class#1966:3298" expanded="false" />
+                <element signature="method#parseFlickrImageResponse#0;class#BaseLocalActivity#0" expanded="false" />
+                <element signature="method#deleteDialog#0;class#BaseLocalActivity#0" expanded="false" />
+                <element signature="method#delete#0;class#BaseLocalActivity#0" expanded="false" />
+                <element signature="class#4786:5143" expanded="false" />
+                <element signature="method#doInBackground#0;class#4786:5143" expanded="false" />
+                <element signature="method#onPostExecute#0;class#4786:5143" expanded="false" />
+                <element signature="method#doDelete#0;class#BaseLocalActivity#0" expanded="false" />
+                <element signature="method#afterDelete#0;class#BaseLocalActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiskLruCache.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/DiskLruCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="149" column="30" selection-start="6880" selection-end="6887" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="3944">
+              <folding>
+                <element signature="e#7065#7080#0" expanded="true" />
+                <element signature="method#copyOfRange#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#readFully#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#readAsciiLine#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#closeQuietly#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#deleteContents#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="e#13234#13294#0" expanded="false" />
+                <element signature="method#readJournal#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#readJournalLine#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#processJournal#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#rebuildJournal#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#deleteIfExists#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="e#18067#18075#0" expanded="false" />
+                <element signature="method#get#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#edit#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#edit#1;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#maxSize#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#size#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#completeEdit#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="e#21764#21833#0" expanded="false" />
+                <element signature="method#journalRebuildRequired#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#remove#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#isClosed#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#checkNotClosed#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#flush#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#close#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#trimToSize#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#delete#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#validateKey#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#inputStreamToString#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#Snapshot#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#edit#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#getInputStream#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#getString#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#close#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#Editor#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#newInputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#getString#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#newOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#set#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#commit#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#abort#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#FaultHidingOutputStream#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#write#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#write#1;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#close#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#flush#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="class#Entry#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#Entry#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#getLengths#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#setLengths#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#invalidLengths#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#getCleanFile#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+                <element signature="method#getDirtyFile#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageCache.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="699" column="59" selection-start="23389" selection-end="23389" vertical-scroll-proportion="0.7381258" vertical-offset="1737" max-vertical-offset="2516">
+              <folding>
+                <element signature="method#ImageCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#ImageCache#1;class#ImageCache#0" expanded="false" />
+                <element signature="method#getInstance#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getInstance#1;class#ImageCache#0" expanded="false" />
+                <element signature="method#init#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#initDiskCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#initLruCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="class#6469:7371" expanded="false" />
+                <element signature="method#onTrimMemory#0;class#6469:7371" expanded="false" />
+                <element signature="method#onLowMemory#0;class#6469:7371" expanded="false" />
+                <element signature="method#onConfigurationChanged#0;class#6469:7371" expanded="false" />
+                <element signature="method#findOrCreateCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#findOrCreateCache#1;class#ImageCache#0" expanded="false" />
+                <element signature="method#findOrCreateCache#2;class#ImageCache#0" expanded="false" />
+                <element signature="method#findOrCreateCache#3;class#ImageCache#0" expanded="false" />
+                <element signature="method#findOrCreateRetainFragment#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#addBitmapToCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#addBitmapToMemCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getBitmapFromMemCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getBitmapFromDiskCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="e#13674#13745#0" expanded="false" />
+                <element signature="method#getCachedBitmap#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#flush#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#clearCaches#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#close#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#evictAll#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#removeFromCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getDiskCacheDir#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#isExternalStorageRemovable#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getExternalCacheDir#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getUsableSpace#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#hashKeyForDisk#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#bytesToHexString#0;class#ImageCache#0" expanded="false" />
+                <element signature="class#RetainFragment#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#RetainFragment#0;class#RetainFragment#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#onCreate#0;class#RetainFragment#0;class#ImageCache#0" expanded="false" />
+                <element signature="class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#MemoryCache#0;class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#getBitmapSize#0;class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+                <element signature="method#sizeOf#0;class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseFlickrPictureActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/BaseFlickrPictureActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="30" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="2635">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scheme.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/Scheme.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding>
+                <element signature="method#Scheme#0;class#Scheme#0" expanded="false" />
+                <element signature="method#ofUri#0;class#Scheme#0" expanded="false" />
+                <element signature="method#belongsTo#0;class#Scheme#0" expanded="false" />
+                <element signature="method#wrap#0;class#Scheme#0" expanded="false" />
+                <element signature="method#crop#0;class#Scheme#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/widget/views/ScaleImageView.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/widget/ScaleImageView.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/maurycyw/StaggeredFlickrImageAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/test_main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/test_row_staggered_demo.xml" />
+        <option value="$PROJECT_DIR$/res/layout/master_activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/maurycyw/TestMasterActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/widget/ZoomImageView.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/PictureViewerActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/picture_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/maurycyw/TestMasterLocalActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/maurycyw/TestListLocalActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/ImageFetcherActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageOption.java" />
+        <option value="$PROJECT_DIR$/src/com/me/archko/imagefetcher/BaseLocalActivity.java" />
+        <option value="$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/Scheme.java" />
+        <option value="$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageFetcher.java" />
+        <option value="$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageWorker.java" />
+        <option value="$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageCache.java" />
+        <option value="$PROJECT_DIR$/../ImageFetcherLibrary/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1554" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apollo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageFetcherLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apollo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.19595142" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/volley.jar!/" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\StaggeredGridView\StaggeredGridViewTest\ImageFetcherTest\res\layout" />
+      <recent name="D:\Projects\StaggeredGridView\StaggeredGridViewTest\ImageFetcherTest\src\com\me\archko\imagefetcher\widget" />
+      <recent name="D:\Projects\StaggeredGridView\StaggeredGridViewTest\ImageFetcherTest\src\com\me\archko\imagefetcher" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\StaggeredGridView\StaggeredGridViewTest\ImageFetcherLibrary\res\drawable-hdpi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d223c644-daa2-4f94-9c64-a25b83f4b86f" name="Default" comment="" />
+      <created>1392699908031</created>
+      <updated>1392699908031</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24620461" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/maurycyw/TestMasterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="93" selection-start="1719" selection-end="1719" vertical-scroll-proportion="0.7637997" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1743#0" expanded="false" />
+            <element signature="e#1732#1733#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/test_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="287" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/maurycyw/StaggeredFlickrImageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="75" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/widget/ScaleImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="86" selection-start="3493" selection-end="3493" vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageFetcherTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/widget/ZoomImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4301">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/picture_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="52" selection-start="282" selection-end="282" vertical-scroll-proportion="0.1309371" vertical-offset="0" max-vertical-offset="779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/PictureViewerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="58" selection-start="419" selection-end="419" vertical-scroll-proportion="0.2618742" vertical-offset="17" max-vertical-offset="1207">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="121" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/ImageFetcherActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="59" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding>
+            <element signature="e#2022#2054#0" expanded="true" />
+            <element signature="e#2097#2116#0" expanded="true" />
+            <element signature="method#parseFlickrImageResponse#0;class#ImageFetcherActivity#0" expanded="false" />
+            <element signature="method#doDelete#0;class#ImageFetcherActivity#0" expanded="false" />
+            <element signature="method#afterDelete#0;class#ImageFetcherActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="19" selection-start="787" selection-end="787" vertical-scroll-proportion="0.5237484" vertical-offset="0" max-vertical-offset="779">
+          <folding>
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StaggeredGridViewTest/src/com/andrew/apollo/cache/ImageWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="31" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#0#14916#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#FADE_IN_TIME#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mDefaultArtwork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mResources#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mCurrentDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mArrayDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mDefault#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mContext#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mImageCache#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#ImageWorker#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#ImageWorker#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#getDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#setImageCache#0;class#ImageWorker#0" expanded="false" />
+            <element signature="e#3801#3802#0" expanded="false" />
+            <element signature="e#3844#3845#0" expanded="false" />
+            <element signature="docComment;method#isScrolling#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#isScrolling#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#close#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#flush#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#flush#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#addBitmapToCache#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#addBitmapToCache#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#getDefaultArtwork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="e#5053#5054#0" expanded="false" />
+            <element signature="e#5084#5085#0" expanded="false" />
+            <element signature="docComment;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mImageReference#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mKey#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;field#mUrl#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#BitmapWorkerTask#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#BitmapWorkerTask#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#doInBackground#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="e#6370#6436#0" expanded="false" />
+            <element signature="e#6934#6960#0" expanded="false" />
+            <element signature="e#7258#7318#0" expanded="false" />
+            <element signature="docComment;method#onPostExecute#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#getAttachedImageView#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#getAttachedImageView#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#cancelWork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#cancelWork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#executePotentialWork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#executePotentialWork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#getBitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#getBitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#AsyncDrawable#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#AsyncDrawable#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#getBitmapWorkerTask#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#getBitmapWorkerTask#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#loadImage#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#loadImage#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#processBitmap#0;class#ImageWorker#0" expanded="false" />
+            <element signature="docComment;method#processImageUrl#0;class#ImageWorker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/BaseLocalActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="68" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="e#693#699#0" expanded="true" />
+            <element signature="method#onCreate#0;class#BaseLocalActivity#0" expanded="false" />
+            <element signature="method#flickerGetImagesRequest#0;class#BaseLocalActivity#0" expanded="false" />
+            <element signature="class#1966:3298" expanded="false" />
+            <element signature="method#doInBackground#0;class#1966:3298" expanded="false" />
+            <element signature="method#onPostExecute#0;class#1966:3298" expanded="false" />
+            <element signature="method#parseFlickrImageResponse#0;class#BaseLocalActivity#0" expanded="false" />
+            <element signature="method#deleteDialog#0;class#BaseLocalActivity#0" expanded="false" />
+            <element signature="method#delete#0;class#BaseLocalActivity#0" expanded="false" />
+            <element signature="class#4786:5143" expanded="false" />
+            <element signature="method#doInBackground#0;class#4786:5143" expanded="false" />
+            <element signature="method#onPostExecute#0;class#4786:5143" expanded="false" />
+            <element signature="method#doDelete#0;class#BaseLocalActivity#0" expanded="false" />
+            <element signature="method#afterDelete#0;class#BaseLocalActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2023">
+          <folding>
+            <element signature="method#ImageFetcher#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#initImageOption#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#processImageUrl#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#startLoadImage#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#startLoadImage#1;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#setPauseDiskCache#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#clearCaches#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#removeFromCache#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#getCachedBitmap#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#downloadBitmapToFile#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#decodeSampledBitmapFromFile#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#decodeSampledBitmapFromFile#1;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#calculateInSampleSize#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="e#10998#11066#0" expanded="false" />
+            <element signature="method#disableConnectionReuseIfNecessary#0;class#ImageFetcher#0" expanded="false" />
+            <element signature="method#hasHttpConnectionBug#0;class#ImageFetcher#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="36" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="3196">
+          <folding>
+            <element signature="docComment;field#mContext#0;class#ImageWorker#0" expanded="true" />
+            <element signature="docComment;method#ImageWorker#0;class#ImageWorker#0" expanded="true" />
+            <element signature="method#ImageWorker#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#isScrolling#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#close#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#flush#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#BitmapWorkerTask#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="e#6187#6253#0" expanded="false" />
+            <element signature="e#6751#6777#0" expanded="false" />
+            <element signature="e#7075#7135#0" expanded="false" />
+            <element signature="method#getAttachedImageView#0;class#BitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#cancelWork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#executePotentialWork#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#getBitmapWorkerTask#0;class#ImageWorker#0" expanded="false" />
+            <element signature="class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#AsyncDrawable#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#getBitmapWorkerTask#0;class#AsyncDrawable#0;class#ImageWorker#0" expanded="false" />
+            <element signature="method#loadImage#0;class#ImageWorker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/Scheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="method#Scheme#0;class#Scheme#0" expanded="false" />
+            <element signature="method#ofUri#0;class#Scheme#0" expanded="false" />
+            <element signature="method#belongsTo#0;class#Scheme#0" expanded="false" />
+            <element signature="method#wrap#0;class#Scheme#0" expanded="false" />
+            <element signature="method#crop#0;class#Scheme#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/DiskLruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="30" selection-start="6880" selection-end="6887" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="3944">
+          <folding>
+            <element signature="e#7065#7080#0" expanded="true" />
+            <element signature="method#copyOfRange#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#readFully#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#readAsciiLine#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#closeQuietly#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#deleteContents#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="e#13234#13294#0" expanded="false" />
+            <element signature="method#readJournal#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#readJournalLine#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#processJournal#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#rebuildJournal#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#deleteIfExists#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="e#18067#18075#0" expanded="false" />
+            <element signature="method#get#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#edit#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#edit#1;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#maxSize#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#size#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#completeEdit#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="e#21764#21833#0" expanded="false" />
+            <element signature="method#journalRebuildRequired#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#remove#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#isClosed#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#checkNotClosed#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#flush#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#close#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#trimToSize#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#delete#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#validateKey#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#inputStreamToString#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#Snapshot#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#edit#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#getInputStream#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#getString#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#close#0;class#Snapshot#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#Editor#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#newInputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#getString#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#newOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#set#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#commit#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#abort#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#FaultHidingOutputStream#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#write#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#write#1;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#close#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#flush#0;class#FaultHidingOutputStream#0;class#Editor#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="class#Entry#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#Entry#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#getLengths#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#setLengths#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#invalidLengths#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#getCleanFile#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+            <element signature="method#getDirtyFile#0;class#Entry#0;class#DiskLruCache#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/me/archko/imagefetcher/BaseFlickrPictureActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="30" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="2635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/utils/ApolloUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="44" selection-start="3249" selection-end="3261" vertical-scroll-proportion="0.44159177" vertical-offset="115" max-vertical-offset="1411">
+          <folding>
+            <element signature="method#ApolloUtils#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#isGoogleTV#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#hasFroyo#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#hasHoneycombMR1#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#hasICS#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#hasJellyBean#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#isTablet#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#isLandscape#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#execute#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#isOnline#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#showCheatSheet#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="e#9365#9378#0" expanded="false" />
+            <element signature="e#9660#9673#0" expanded="false" />
+            <element signature="method#isColorDark#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#doAfterLayout#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#getImageFetcher#0;class#ApolloUtils#0" expanded="false" />
+            <element signature="method#isApplicationSentToBackground#0;class#ApolloUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="62" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2182285" vertical-offset="0" max-vertical-offset="779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageFetcherLibrary/src/com/andrew/apollo/cache/ImageCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="699" column="59" selection-start="23389" selection-end="23389" vertical-scroll-proportion="0.7381258" vertical-offset="1737" max-vertical-offset="2516">
+          <folding>
+            <element signature="method#ImageCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#ImageCache#1;class#ImageCache#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getInstance#1;class#ImageCache#0" expanded="false" />
+            <element signature="method#init#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#initDiskCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#initLruCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="class#6469:7371" expanded="false" />
+            <element signature="method#onTrimMemory#0;class#6469:7371" expanded="false" />
+            <element signature="method#onLowMemory#0;class#6469:7371" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#6469:7371" expanded="false" />
+            <element signature="method#findOrCreateCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#findOrCreateCache#1;class#ImageCache#0" expanded="false" />
+            <element signature="method#findOrCreateCache#2;class#ImageCache#0" expanded="false" />
+            <element signature="method#findOrCreateCache#3;class#ImageCache#0" expanded="false" />
+            <element signature="method#findOrCreateRetainFragment#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#addBitmapToCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#addBitmapToMemCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getBitmapFromMemCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getBitmapFromDiskCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="e#13674#13745#0" expanded="false" />
+            <element signature="method#getCachedBitmap#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#flush#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#clearCaches#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#close#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#evictAll#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#removeFromCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getDiskCacheDir#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#isExternalStorageRemovable#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getExternalCacheDir#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getUsableSpace#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#hashKeyForDisk#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#bytesToHexString#0;class#ImageCache#0" expanded="false" />
+            <element signature="class#RetainFragment#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#RetainFragment#0;class#RetainFragment#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#onCreate#0;class#RetainFragment#0;class#ImageCache#0" expanded="false" />
+            <element signature="class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#MemoryCache#0;class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#getBitmapSize#0;class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+            <element signature="method#sizeOf#0;class#MemoryCache#0;class#ImageCache#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ImageFetcherLibrary</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android 4.3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
