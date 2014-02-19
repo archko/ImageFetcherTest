@@ -84,7 +84,7 @@ public abstract class ImageWorker {
 
     /**
      * Constructor of <code>ImageWorker</code>
-     * 
+     *
      * @param context The {@link Context} to use
      */
     protected ImageWorker(final Context context) {
@@ -106,7 +106,7 @@ public abstract class ImageWorker {
 
     /**
      * Set the {@link ImageCache} object to use with this ImageWorker.
-     * 
+     *
      * @param cacheCallback new {@link ImageCache} object.
      */
     public void setImageCache(final ImageCache cacheCallback) {
@@ -146,7 +146,7 @@ public abstract class ImageWorker {
 
     /**
      * Adds a new image to the memory and disk caches
-     * 
+     *
      * @param data The key used to store the image
      * @param bitmap The {@link Bitmap} to cache
      */
@@ -266,7 +266,14 @@ public abstract class ImageWorker {
             }
             final ImageView imageView = getAttachedImageView();
             if (result != null && imageView != null) {  //TODO if load image failed...
-                imageView.setImageDrawable(result);
+                if (null==imageView.getDrawable()||imageView.getDrawable() instanceof BitmapDrawable){
+                    imageView.setImageDrawable(result);
+                } else {
+                    Bitmap bitmap=mImageCache.getCachedBitmap(mKey);
+                    if (null!=bitmap) {
+                        imageView.setImageBitmap(bitmap);
+                    }
+                }
             }
         }
 
@@ -287,7 +294,7 @@ public abstract class ImageWorker {
 
     /**
      * Calls {@code cancel()} in the worker task
-     * 
+     *
      * @param imageView the {@link ImageView} to use
      */
     public static final void cancelWork(final ImageView imageView) {
@@ -319,13 +326,17 @@ public abstract class ImageWorker {
     /**
      * Used to determine if the current image drawable has an instance of
      * {@link BitmapWorkerTask}
-     * 
+     *
      * @param imageView Any {@link ImageView}.
      * @return Retrieve the currently active work task (if any) associated with
      *         this {@link ImageView}. null if there is no such task.
      */
     private static final BitmapWorkerTask getBitmapWorkerTask(final ImageView imageView) {
         if (imageView != null) {
+            final AsyncDrawable tag=(AsyncDrawable) imageView.getTag();
+            if (null!=tag) {
+                return tag.getBitmapWorkerTask();
+            }
             final Drawable drawable = imageView.getDrawable();
             if (drawable instanceof AsyncDrawable) {
                 final AsyncDrawable asyncDrawable = (AsyncDrawable)drawable;
@@ -383,7 +394,8 @@ public abstract class ImageWorker {
             // Otherwise run the worker task
             final BitmapWorkerTask bitmapWorkerTask = new BitmapWorkerTask(imageView, imageOption);
             final AsyncDrawable asyncDrawable=new AsyncDrawable(bitmapWorkerTask);
-            imageView.setImageDrawable(asyncDrawable);
+            //imageView.setImageDrawable(asyncDrawable);
+            imageView.setTag(asyncDrawable);
             // Don't execute the BitmapWorkerTask while scrolling
             if (isScrolling()) {
                 cancelWork(imageView);
@@ -397,7 +409,7 @@ public abstract class ImageWorker {
      * Subclasses should override this to define any processing or work that
      * must happen to produce the final {@link Bitmap}. This will be executed in
      * a background thread and be long running.
-     * 
+     *
      *
      * @param key The key to identify which image to process, as provided by
      *            {@link com.andrew.apollo.cache.ImageWorker#loadImage(mKey, android.widget.ImageView)}
@@ -409,7 +421,7 @@ public abstract class ImageWorker {
     /**
      * Subclasses should override this to define any processing or work that
      * must happen to produce the URL needed to fetch the final {@link Bitmap}.
-     * 
+     *
      * @param artistName The artist name param used in the Last.fm API.
      * @param albumName The album name param used in the Last.fm API.
      * @param imageType The type of image URL to fetch for.

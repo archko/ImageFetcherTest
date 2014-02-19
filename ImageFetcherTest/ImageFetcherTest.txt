@@ -13,3 +13,17 @@
 	完成.还有需要修正.目前只有api>11才可用,因为有Fragment.
 8.
 
+if (result != null && imageView != null) {  //TODO if load image failed...
+    System.out.println("url:post:"+imageView+" drawable:"+imageView.getDrawable());
+    if (null==imageView.getDrawable()||imageView.getDrawable() instanceof BitmapDrawable){
+        imageView.setImageDrawable(result);
+    } else {
+        Bitmap bitmap=mImageCache.getCachedBitmap(mKey);
+        if (null!=bitmap) {
+            imageView.setImageBitmap(bitmap);
+        }
+    }
+}
+这个方法有个bug,如果RoundedImageView有了background,则第一次不会显示图片.它imageView.getDrawable()会得到android.graphics.drawable.BitmapDrawable
+CircleImageView则是另一个毛病.两个是相反的.
+

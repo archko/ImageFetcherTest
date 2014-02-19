@@ -14,6 +14,7 @@ package com.andrew.apollo.cache;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.andrew.apollo.utils.ApolloUtils;
@@ -88,6 +89,7 @@ public class ImageFetcher extends ImageWorker {
     @Override
     protected Bitmap processBitmap(final String url, ImageOption imageOption) {
         if (url == null) {
+            Log.w("", "url is null");
             return null;
         }
 
@@ -96,6 +98,7 @@ public class ImageFetcher extends ImageWorker {
             option=imageOption;
         }
         Scheme scheme=Scheme.ofUri(url);
+        //Log.d("", "scheme:"+scheme+" url:"+url);
         if (scheme==Scheme.HTTP||scheme==Scheme.HTTPS) {
             final File file = downloadBitmapToFile(mContext, url, DEFAULT_HTTP_CACHE_DIR);
             if (file != null) {
