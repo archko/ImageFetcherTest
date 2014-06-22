@@ -14,6 +14,7 @@ package com.andrew.apollo.cache;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.andrew.apollo.utils.ApolloUtils;
@@ -39,6 +40,9 @@ public class ImageFetcher extends ImageWorker {
     public static final int DEFAULT_MAX_IMAGE_WIDTH = 720;
 
     public static final String DEFAULT_HTTP_CACHE_DIR = "http"; //$NON-NLS-1$
+
+    public static final int CONNECT_TIMEOUT=10000;
+    public static final int READ_TIMEOUT=120000;
 
     private static ImageFetcher sInstance = null;
 
@@ -88,6 +92,7 @@ public class ImageFetcher extends ImageWorker {
     @Override
     protected Bitmap processBitmap(final String url, ImageOption imageOption) {
         if (url == null) {
+            Log.w("", "url is null");
             return null;
         }
 
@@ -96,6 +101,7 @@ public class ImageFetcher extends ImageWorker {
             option=imageOption;
         }
         Scheme scheme=Scheme.ofUri(url);
+        //Log.d("", "scheme:"+scheme+" url:"+url);
         if (scheme==Scheme.HTTP||scheme==Scheme.HTTPS) {
             final File file = downloadBitmapToFile(mContext, url, DEFAULT_HTTP_CACHE_DIR);
             if (file != null) {
@@ -207,6 +213,8 @@ public class ImageFetcher extends ImageWorker {
 
             final URL url = new URL(urlString);
             urlConnection = (HttpURLConnection)url.openConnection();
+            urlConnection.setConnectTimeout(CONNECT_TIMEOUT);
+            urlConnection.setReadTimeout(READ_TIMEOUT);
             if (urlConnection.getResponseCode() != HttpURLConnection.HTTP_OK) {
                 return null;
             }

@@ -19,9 +19,10 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.TransitionDrawable;
-import android.os.AsyncTask;
+//import android.os.AsyncTask;
 import android.widget.ImageView;
 
+import cn.archko.thread.AsyncTask;
 import com.andrew.apollo.utils.ApolloUtils;
 
 import java.lang.ref.WeakReference;
@@ -266,7 +267,14 @@ public abstract class ImageWorker {
             }
             final ImageView imageView = getAttachedImageView();
             if (result != null && imageView != null) {  //TODO if load image failed...
-                imageView.setImageDrawable(result);
+                if (null==imageView.getDrawable()||imageView.getDrawable() instanceof BitmapDrawable){
+                    imageView.setImageDrawable(result);
+                } else {
+                    Bitmap bitmap=mImageCache.getCachedBitmap(mKey);
+                    if (null!=bitmap) {
+                        imageView.setImageBitmap(bitmap);
+                    }
+                }
             }
         }
 
@@ -326,6 +334,10 @@ public abstract class ImageWorker {
      */
     private static final BitmapWorkerTask getBitmapWorkerTask(final ImageView imageView) {
         if (imageView != null) {
+            final AsyncDrawable tag=(AsyncDrawable) imageView.getTag();
+            if (null!=tag) {
+                return tag.getBitmapWorkerTask();
+            }
             final Drawable drawable = imageView.getDrawable();
             if (drawable instanceof AsyncDrawable) {
                 final AsyncDrawable asyncDrawable = (AsyncDrawable)drawable;
@@ -383,12 +395,13 @@ public abstract class ImageWorker {
             // Otherwise run the worker task
             final BitmapWorkerTask bitmapWorkerTask = new BitmapWorkerTask(imageView, imageOption);
             final AsyncDrawable asyncDrawable=new AsyncDrawable(bitmapWorkerTask);
-            imageView.setImageDrawable(asyncDrawable);
+            //imageView.setImageDrawable(asyncDrawable);
+            imageView.setTag(asyncDrawable);
             // Don't execute the BitmapWorkerTask while scrolling
             if (isScrolling()) {
                 cancelWork(imageView);
             } else {
-                ApolloUtils.execute(false, bitmapWorkerTask, key);
+                ApolloUtils.executeCustomTask(false, bitmapWorkerTask, key);
             }
         }
     }
